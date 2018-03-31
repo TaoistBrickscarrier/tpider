@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	tproxy   = flag.String("proxy", "192.168.11.18:2018", "host:port to reach tumblr")
+	tproxy   = flag.String("proxy", "", "host:port to reach tumblr")
 	tuser    = flag.String("user", "staff", "Tumblr user name.")
 	keeppath = flag.String("path", ".", "Path to keep downloaded media files.")
 	thread   = flag.Int("thread", 5, "Threads of downloading")
