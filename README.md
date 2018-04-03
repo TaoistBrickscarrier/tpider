@@ -8,7 +8,7 @@
 
 ## Installation
 
-It's depends nothing, just `go get` it.
+It depends nothing, just `go get` it.
 
 ```bash
 $ go get github.com/TinkerBravo/tpider
